@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar">
+      <a href="accueille.html">
+        <h1 class="logo_title">Master cuisine</h1>
+      </a>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="navbar_menu">
+        <li><a href="#">connecter</a></li>
+        <li><a href="catalogue.html">catalogue</a></li>
+        <li><a href="#contact">contact us</a></li>
+        <li><a href="#aboutus">about us</a></li>
+      </ul>
+    </nav>
+
+    <header class="header">
+      <div class="header_content">
+        <h1 class="header_0">Master cuisine</h1>
+        <p class="cta_catch">réalisez vos rêves avec nous</p>
+        <a href="catalogue.html" class="btn">découvrir le menu</a>
+      </div>
+    </header>
+
+    <section class="section_2" id="aboutus">
+      <div class="illustration">
+        <img
+          src="../assets/image pweb/logo1.webp"
+          alt="Example Illustration"
+          class="section_2_image"
+        />
+      </div>
+      <div class="info">
+        <h2 class="section_2_h2" id="apropos">A Propos De Nous</h2>
+        <p class="section_2_p">
+          Bienvenue sur notre site Web de cuisine, où vous trouverez des
+          recettes délicieuses et faciles à suivre, des conseils de cuisine et
+          de l'inspiration culinaire ! Notre site Web est dédié à vous fournir
+          tout ce dont vous avez besoin pour améliorer vos compétences
+          culinaires et créer de délicieux repas à la maison.
+        </p>
+      </div>
+    </section>
+
+    <section class="categorie">
+      <div class="categorie_titre blanc">
+        <h2 class="categorie_titre_texte"><span>C</span>ategorie</h2>
+        <p>
+          Explorez nos différentes catégories de recettes pour trouver des plats
+          qui correspondent à vos goûts et à vos envies, du salé au sucré, en
+          passant par les plats végétariens et les recettes pour les grandes
+          occasions.
+        </p>
+      </div>
+      <div class="categorie_contenu">
+        <a href="catalogue.html" class="categorie_contenu_a">
+          <div class="categorie_contenu_a_box">
+            <div class="categorie_contenu_a_box_imbox">
+              <img src="../assets/image pweb/dejouner.png" alt="" />
+            </div>
+            <div class="categorie_contenu_a_box_text">
+              <h3>Dejouner</h3>
+              <p>
+                Des idées de petit-déjeuner sains et délicieux pour bien
+                démarrer la journée : pancakes, smoothies, oeufs brouillés et
+                plus encore !
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="catalogue.html" class="categorie_contenu_a">
+          <div class="categorie_contenu_a_box">
+            <div class="categorie_contenu_a_box_imbox">
+              <img src="../assets/image pweb/platprincipaux.webp" alt="" />
+            </div>
+            <div class="categorie_contenu_a_box_text">
+              <h3>Plats principaux</h3>
+              <p>
+                Découvrez notre sélection de plats principaux alléchants,
+                parfaits pour les dîners en famille ou les repas entre amis.
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="catalogue.html" class="categorie_contenu_a">
+          <div class="categorie_contenu_a_box">
+            <div class="categorie_contenu_a_box_imbox">
+              <img src="../assets/image pweb/plat.png" alt="" />
+            </div>
+            <div class="categorie_contenu_a_box_text">
+              <h3>plat</h3>
+              <p>
+                Des recettes savoureuses et faciles à préparer pour des repas
+                équilibrés au quotidien : viandes, poissons, légumes et plus
+                encore !
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="catalogue.html" class="categorie_contenu_a">
+          <div class="categorie_contenu_a_box">
+            <div class="categorie_contenu_a_box_imbox">
+              <img src="../assets/image pweb/diner.png" alt="" />
+            </div>
+            <div class="categorie_contenu_a_box_text">
+              <h3>diner</h3>
+              <p>
+                Des idées de dîner délicieuses et variées pour tous les goûts :
+                pâtes, riz, soupes, salades et bien plus encore !
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <br />
+    <br />
+    <br />
+
+    <section class="section_3">
+      <h2 class="section_3_h2"><span>R</span> ecette aleatoire</h2>
+      <p class="section_3_p">
+        Essayez une recette aléatoire pour changer de routine culinaire.
+      </p>
+
+      <script src="../js/recettesDB.js"></script>
+      <script src="../js/alea.js"></script>
+    </section>
+    <div class="section_3_button">
+      <a href="catalogue.html" class="btn">Plus</a>
+    </div>
+
+    <section class="temoignage" id="temoignage">
+      <div class="titre blanc">
+        <h2 class="titre-texte">Que Disent Nos <span>C</span>lients</h2>
+        <p>
+          Découvrez ce que nos clients disent de nos recettes délicieuses et
+          faciles à suivre, et rejoignez notre communauté de gourmands
+          satisfaits !
+        </p>
+      </div>
+      <div class="contenu">
+        <div class="box">
+          <div class="imbox">
+            <img src="../assets/image/Gordon-Ramsay.jpg" alt="" />
+          </div>
+          <div class="text">
+            <p>
+              Je suis tellement heureux d'avoir trouvé ce site de recettes.
+              Chaque plat que j'ai essayé était incroyablement délicieux et
+              facile à préparer !
+            </p>
+            <h3>Gordon-Ramsay</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="../assets/image/chef.png" alt="" />
+          </div>
+          <div class="text">
+            <p>
+              Je suis une cuisinière débutante et ce site m'a vraiment aidé à
+              prendre confiance en moi en cuisine. Les instructions sont claires
+              et les résultats sont délicieux !
+            </p>
+            <h3>Chef Chef</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imbox">
+            <img src="../assets/image/t4.jpg" alt="" />
+          </div>
+          <div class="text">
+            <p>
+              J'aime les différentes recettes proposées sur ce site. Des plats
+              simples aux plats plus élaborés, il y en a pour tous les niveaux
+              de cuisine et tous les goûts
+            </p>
+            <h3>Sophia</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="client">
+      <div id="contact">
+        <h2 class="contact_h2"><span class="contact_span">C</span>ontact</h2>
+        <p class="contact_p">
+          n'hésitez pas à nous contacter pour toute question,<br />
+          suggestion ou remarque concernant nos recettes, notre équipe se fera
+          un plaisir de vous répondre dans les plus brefs délais.
+        </p>
+        <input type="text" id="inputclient1" placeholder="Entrez votre nom" />
+        <input
+          type="text"
+          id="inputclient2"
+          placeholder="Entrez votre prenom"
+        />
+        <input
+          type="gmail"
+          id="inputclient3"
+          placeholder="Entrez votre gmail"
+        />
+        <textarea
+          id="paragraphe"
+          name="paragraphe"
+          rows="4"
+          cols="50"
+          placeholder="Entrez votre message ici"
+        ></textarea>
+        <button class="btn client_button" onclick="resetinput()">
+          envoyer
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footerContainer">
+        <div class="socialIcons">
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/home?lang=fr"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://myaccount.google.com/intro/profile"
+            ><i class="fa-brands fa-google-plus"></i
+          ></a>
+          <a href="https://www.youtube.com/"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+        <div class="footerNav">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#aboutus">about us</a></li>
+            <li><a href="#contact">contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <p>
+          Copyright &copy;2023; Designed by
+          <span class="designer"> abdessalem</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="../js/resetinput.js"></script>
+  <script src="../js/nav.js"></script>
+</html>
